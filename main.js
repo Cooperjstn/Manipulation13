@@ -12,9 +12,9 @@ document.querySelector("#double button").addEventListener('click',function(){
   var strGrabber = answerPTagWithValue.innerText
   var turnNum = parseInt(strGrabber)
 
-  var doubleMe = turnNum * 2
+  var dblX = turnNum * 2
 
-   answerPTagWithValue.innerText =  doubleMe
+   answerPTagWithValue.innerText =  dblX
 
 
 })
